@@ -10,7 +10,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 class Model:
     def __init__(self):
         self.batch_size = 128
-        self.epochs = 1
+        self.epochs = 12
 
         img_rows, img_cols = 28, 28
         self.input_shape = (img_rows, img_cols, 1)
